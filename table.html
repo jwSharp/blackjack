@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Table</title>
+</head>
+<body id="top_of_page">
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="#top_of_page">Table</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Blackjack
+        </h1>
+
+        <section id="box">
+            <!--Box refers to the playing area.-->
+            <section id="paint">
+                <!--Paint refers to the cards that the dealer has shown for the table.-->
+                <ol class="cards">
+                    <li>
+                        <img src="images/hearts_4.svg"
+                            alt="The four of hearts playing card"
+                            height="300"
+                            width="150">
+                    </li>
+                    <li>
+                        <img src="images/spades_2.svg"
+                            alt="The two of spades playing card"
+                            height="300"
+                            width="150">
+                    </li>
+                    <li>
+                        <img src="images/diamonds_ace.svg"
+                            alt="The ace of diamonds playing card"
+                            height="300"
+                            width="150">
+                    </li>
+                    <li>
+                        <img src="images/clubs_king.svg"
+                            alt="The king of clubs playing card"
+                            height="300"
+                            width="150">
+                    </li>
+                    <li>
+                        <img src="images/spades_king.svg"
+                            alt="The king of spades playing card"
+                            height="300"
+                            width="150">
+                    </li>
+                </ol>
+            </section>
+            <section id="player-hand">
+                <h2>Player's Cards</h2>
+                <ol class="cards">
+                    <li>
+                        <img src="images/back.svg"
+                            alt="The back of a playing card"
+                            height="400"
+                            width="200">
+                    </li>
+                    <li>
+                        <img src="images/hearts_king.svg"
+                            alt="The king of hearts playing card"
+                            height="400"
+                            width="200">
+                    </li>
+                </ol>
+            </section>
+            <section id="dealer-hand">
+                <h2>Dealer's Cards</h2>
+                <ol class="cards">
+                    <li>
+                        <img src="images/back.svg"
+                            alt="The back of a playing card"
+                            height="400"
+                            width="200">
+                    </li>
+                    <li>
+                        <img src="images/spades_ace.svg"
+                            alt="The ace of spades playing card"
+                            height="400"
+                            width="200">
+                    </li>
+                </ol>
+            </section>
+        </section>
+
+        <section id="player-moves">
+            <h3>Player's Options</h3>
+            <button name="Player Hit" type="button">Hit</button>
+            <button name="Player Stand" type="button">Stand</button>
+            <button name="Player Split" type="button" hidden>Split</button>
+        </section>
+
+        <section id="terminology">
+            <p>
+                To find more precise definitions of terms, visit this site which offers 
+                <a href="https://www.onlinegambling.com/blackjack/terminology/"
+                    alt="Opens site with Blackjack information in a new tab."
+                    target="_blank">Blackjack terminology</a>.
+            </p>
+            <dl>
+                <dt>Hit</dt>
+                <dd>
+                    Player wishes to be dealt another card to add to their hand.
+                    The goal is to get as close to a sum of 21 without going over.
+                </dd>
+
+                <dt>Stand</dt>
+                <dd>
+                    Player wishes to keep current hand and finish their turn.
+                    Traditionally, a hand totalling 17 or higher should be kept.
+                </dd>
+
+                <dt>Split</dt>
+                <dd>
+                    Player was dealt two of the same card.
+                    Player wishes to split their hand into two hands.
+                    This will double their bet and treat each hand separately.
+                    Player may only hit one on each.
+                </dd>
+            </dl>>
+        </section>
+
+        
+    </main>
+    <footer>
+        <hr>
+        &copy; jwSharp 2022
+        All rights reserved.
+    </footer>
+</body>
+</html>
