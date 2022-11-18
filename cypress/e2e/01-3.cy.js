@@ -1,7 +1,7 @@
 describe("blackjack home page in class practice activity", () => {
   describe("the rules page", () => {
     beforeEach(() => {
-      cy.visit("/blackjack/rules.html");
+      cy.visit("/rules.html");
     });
     it("contains the required heading", () => {
       cy.get("article").find("h1").contains("Rules of Blackjack");
@@ -29,7 +29,7 @@ describe("blackjack home page in class practice activity", () => {
 
   describe("the about page", () => {
     beforeEach(() => {
-      cy.visit("/blackjack/index.html");
+      cy.visit("/index.html");
     });
     it("has had the Rules section removed ", () => {
       cy.get("section").should("not.contain", "Rules");
@@ -54,7 +54,7 @@ describe("blackjack home page in class practice activity", () => {
 
   describe("the table page", () => {
     beforeEach(() => {
-      cy.visit("/blackjack/table.html");
+      cy.visit("/table.html");
     });
     it("contains the link to about ", () => {
       cy.get("header")
