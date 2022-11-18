@@ -1,0 +1,38 @@
+/*
+Page Setup
+*/
+body {
+    background-color: white;
+}
+
+main {
+    margin: 10%;
+}
+
+
+/*
+Navigation Bar
+*/
+nav {
+    background-color: whitesmoke;
+}
+
+nav > #logo {
+    display: flex
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*
+Text Formatting
+*/
+h1 {
+    text-shadow: 2em;
+}
