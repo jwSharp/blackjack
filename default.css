@@ -6,33 +6,76 @@ body {
 }
 
 main {
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*
+Header
+*/
+header {
+    background-color: whitesmoke;
+
+    padding-right: 2em;
+    padding-left: 2em;
+}
+header > #icon > a > img {
+    height: 5em;
+    width: 5em;
 }
 
 
 /*
 Navigation Bar
 */
-nav {
-    background-color: whitesmoke;
-}
-
-nav > #logo {
-    display: flex
-}
-
 nav > ul {
-    display: flex;
+    list-style: none;
 }
-
-nav > ul {
-    flex-wrap: wrap;
-    justify-content: space-between;
+nav > ul > li > a {
+    font-weight: 900;
+    color: black;
+}
+nav > ul > li > a :hover {
+    font-weight: 1000;
+    color: white;
 }
 
 /*
 Text Formatting
 */
-h1 {
-    text-shadow: 2em;
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+figure > figcaption {
+    text-align: justify;
+    
+    border: 50em;
+    border-radius: 50em;
+    border-color: grey;
+}
+
+
+/*
+Containers
+*/
+.flex-row {
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.flex-column {
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.flex-child {
+    white-space: nowrap;
 }
