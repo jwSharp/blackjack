@@ -8,6 +8,9 @@ body {
 main {
     margin-left: 10%;
     margin-right: 10%;
+
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 
@@ -17,11 +20,15 @@ Header
 header {
     background-color: whitesmoke;
 
-    padding-right: 2em;
-    padding-left: 2em;   
+    position: fixed;
+    top: 0em;
+    
+    height: 100px;
+    width: 100%;
 }
 header > #icon {
     order: -1;
+    padding-left: 2em;
 }
 header > #title > h1 {
     flex: 2;
@@ -36,6 +43,7 @@ header > #icon > a > img {
 /* Navigation Bar */
 nav {
     flex: 2;
+    padding-right: 2em;
 }
 nav > ul {
     flex-basis: 30%;
@@ -53,6 +61,21 @@ nav > ul > li > a :hover {
 }
 
 /*
+Footer
+*/
+footer {
+    background-color: whitesmoke;
+
+    position: fixed;
+    bottom: 0em;
+    height: 60px;
+    width: 100%;
+}
+footer > span > #copyright {
+    position: absolute;
+}
+
+/*
 Text Formatting
 */
 a {
@@ -61,16 +84,19 @@ a {
 ol, ul {
     list-style: none;
 }
+li {
+    display: inline;
+}
 figure > * {
     width: 80%;
 }
 figure > figcaption {
-    text-align: justify;
     font-style: italic;
+    text-align: justify;
     
-    border: 50em;
-    border-radius: 50em;
-    border-color: grey;
+    border: 500em;
+    border-radius: 500em;
+    border-color: whitesmoke;
 }
 
 
