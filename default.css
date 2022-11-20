@@ -58,10 +58,7 @@ Text Formatting
 a {
     text-decoration: none;
 }
-ol {
-    list-style: none;
-}
-ul {
+ol, ul {
     list-style: none;
 }
 figure > * {
