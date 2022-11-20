@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Table</title>
+
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="table.css" />
 </head>
 <body id="top_of_page">
-    <header>
-        <nav>
-            <ul>
-                <li>
+    <header class="flex-row">
+        <div class="flex-child" id="title">
+            <h1>Blackjack</h1>
+        </div>
+        <div class="flex-child" id="icon">
+            <a href="index.html">
+                <img src="images/joker.jpg"
+                    alt="Joker card logo"
+                    title="Home" />
+            </a>
+        </div>
+        <nav class="flex-child">
+            <ul class="flex-row">
+                <li class="flex-child">
                     <a href="./index.html">About</a>
                 </li>
-                <li>
+                <li class="flex-child">
                     <a href="./rules.html">Rules</a>
                 </li>
-                <li>
+                <li class="flex-child">
                     <a href="#top_of_page">Table</a>
                 </li>
             </ul>
@@ -31,35 +44,35 @@
             <!--Box refers to the playing area.-->
             <section id="player-hand">
                 <h2>Player's Cards</h2>
-                <ol class="cards">
+                <ol class="flex-row">
                     <li>
                         <img src="images/back.svg"
                             alt="The back of a playing card"
-                            height="400"
-                            width="200">
+                            height="50%"
+                            width="75%">
                     </li>
                     <li>
                         <img src="images/hearts_king.svg"
                             alt="The king of hearts playing card"
-                            height="400"
-                            width="200">
+                            height="50%"
+                            width="75%">
                     </li>
                 </ol>
             </section>
             <section id="dealer-hand">
                 <h2>Dealer's Cards</h2>
-                <ol class="cards">
+                <ol class="flex-row">
                     <li>
                         <img src="images/back.svg"
                             alt="The back of a playing card"
-                            height="400"
-                            width="200">
+                            height="50%"
+                            width="75%">
                     </li>
                     <li>
                         <img src="images/spades_ace.svg"
                             alt="The ace of spades playing card"
-                            height="400"
-                            width="200">
+                            height="50%"
+                            width="75%">
                     </li>
                 </ol>
             </section>
