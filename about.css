@@ -10,4 +10,15 @@
 }
 #call-to-action {
     width: 60%;
+
+    float: right;
+}
+
+@media screen and (max-width: 800px) {
+    #why-us {
+        width: 100%;
+    }
+    #call-to-action {
+        width: 100%;
+    }
 }
